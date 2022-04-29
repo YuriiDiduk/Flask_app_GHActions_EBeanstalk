@@ -16,7 +16,7 @@ name: CI/CD-AWS
 env:
   EB_S3_bucket_name: "my22bucket-pyapp"
   EB_app_name      : "flask_App"
-  EB_env           : "flask_App-env-1"
+  EB_env           : "Flaskapp-env-1"
   Deploy_pack_name : "flask_app_${{ github.sha }}.zip"
   AWS_REGION_NAME  : "us-east-1"
   
